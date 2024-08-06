@@ -1,0 +1,55 @@
+.feed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 18%;
+    padding-right: 2%;
+    padding-top: 1%;
+    gap: 15px;
+
+}
+ .feed .card{
+    line-height: 20px;
+    margin-bottom: 10px;
+  
+  
+} 
+.feed .card img{
+   width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.feed .card h3{
+    font-size: 13px;
+    margin-bottom: 3px;
+  
+  
+}
+.feed .card h4 , .feed .card p{
+    font-size: 11px;
+    color: gray;
+}
+.large-content{
+    padding-left: 7%;
+  
+} 
+@media(max-width:780px){
+    .feed{
+        grid-template-columns: 1fr 1fr 1fr ;
+     
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+    
+    }
+
+}
+@media(max-width:550px){
+    .feed{
+        grid-template-columns: 1fr 1fr  ;
+     
+     
+    
+    }
+
+
+}

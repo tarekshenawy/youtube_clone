@@ -1,0 +1,51 @@
+nav{
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+   background-color: #fff;
+
+}
+nav .nav-left .menuicon{
+    width: 25px;
+    margin-right: 7px;
+}
+nav .nav-left .logo{
+    width: 100px;
+}
+nav .nav-middle {
+    border: 2px solid rgba(128, 128, 128, 0.714);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 10px;
+    border-radius: 30px;
+}
+nav .nav-middle input{
+    border: 0;
+    outline: none;
+    
+}
+nav .nav-middle img{
+    width: 15px;
+}
+.nav-end {
+    display: flex;
+    align-items: center;
+   
+}
+.nav-end img{
+    width: 30px;
+    margin: 3px;
+}
+
+.profileicon{
+   
+    border-radius: 20px;
+}

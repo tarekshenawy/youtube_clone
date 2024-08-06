@@ -1,0 +1,16 @@
+.recomended{
+    flex-basis: 30%;
+}
+.therecomend img{
+    width: 50%;
+    margin-right: 5px;
+}
+.therecomend h2{
+    font-size: 14px;
+}
+.therecomend{
+    display: flex;
+   
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
